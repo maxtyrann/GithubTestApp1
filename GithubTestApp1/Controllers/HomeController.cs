@@ -11,6 +11,7 @@ namespace GithubTestApp1.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.Note = "Just testing";
             return View();
         }
     }
